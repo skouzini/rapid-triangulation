@@ -17,22 +17,22 @@ header {
   width: 100%;
   color: white;
   height: 25vh; }
-  header .title {
-    position: relative;
-    width: 400px;
-    top: -290px;
-    margin: 0 auto; }
-    header .title h1 {
-      text-align: center;
-      font-weight: 200;
-      font-stretch: expanded;
-      font-size: 50px;
-      font-variant: small-caps;
-      text-shadow: 1px 3px 25px #30043d; }
-  header .logo {
-    height: 400px;
-    width: 1200px;
-    padding-left: 15%; }
+header .title {
+  position: relative;
+  width: 400px;
+  top: -290px;
+  margin: 0 auto; }
+header .title h1 {
+  text-align: center;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-size: 50px;
+  font-variant: small-caps;
+  text-shadow: 1px 3px 20px black; }
+header .logo {
+  height: 400px;
+  width: 1200px;
+  padding-left: 15%; }
 
 @keyframes gradientBG {
   0% {
@@ -64,13 +64,13 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-right: 3px #1c1c1c solid;
   border-bottom: 3px #1c1c1c solid; }
-  .section_box h1 {
-    font-variant: small-caps;
-    text-align: center;
-    font-weight: bolder;
-    color: #fdb36a; }
-  .section_box p {
-    color: white; }
+.section_box h1 {
+  font-variant: small-caps;
+  text-align: center;
+  font-weight: bolder;
+  color: #fdb36a; }
+.section_box p {
+  color: white; }
 
 .list_box {
   margin: 10px auto;
@@ -118,5 +118,8 @@ a:link {
 
 a:hover {
   text-shadow: 0px 3px 10px #e54059; }
+
+a:visited {
+  color: white; }
 
 /*# sourceMappingURL=master.css.map */
